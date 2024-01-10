@@ -1,0 +1,11 @@
+.TotalCompleteItems{
+    margin: 10px 15%;
+}
+@media only screen and (max-width : 600px) {
+    .TotalCompleteItems{
+        width: 100vw;
+    }
+    .TotalCompleteItems h3{
+        margin: 10px 5%;
+    }
+}

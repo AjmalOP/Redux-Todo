@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Redux-Todo/static/css/main.5399ca70.css",
+    "main.js": "/Redux-Todo/static/js/main.38e8c3e4.js",
+    "static/js/787.04f9717c.chunk.js": "/Redux-Todo/static/js/787.04f9717c.chunk.js",
+    "static/media/successicon.png": "/Redux-Todo/static/media/successicon.6f298cca57a5a8b36055.png",
+    "index.html": "/Redux-Todo/index.html",
+    "main.5399ca70.css.map": "/Redux-Todo/static/css/main.5399ca70.css.map",
+    "main.38e8c3e4.js.map": "/Redux-Todo/static/js/main.38e8c3e4.js.map",
+    "787.04f9717c.chunk.js.map": "/Redux-Todo/static/js/787.04f9717c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5399ca70.css",
+    "static/js/main.38e8c3e4.js"
+  ]
+}

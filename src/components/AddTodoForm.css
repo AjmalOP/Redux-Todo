@@ -1,0 +1,39 @@
+.AddTodoForm{
+    width: 100vw;
+    margin: 50px 15% 25px 15%;
+}
+.AddTodoForm h1{
+    font-weight: 700;
+    font-style: italic;
+}
+.AddTodoForm input{
+    width: 70%;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.AddTodoForm button{
+    margin-top: 8px;
+    width: 10%;
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+}
+.todoData{
+    
+}
+@media only screen and (max-width: 700px) {
+    .AddTodoForm{
+        width: 100vw;
+        margin: 55px 5% 25px 5%;
+    }
+    .AddTodoForm input{
+        width: 89%;
+    }
+    .AddTodoForm button{
+        width: 100px;
+    }
+  }

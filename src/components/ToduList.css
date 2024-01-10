@@ -1,0 +1,45 @@
+.ToduList{
+    width: 100vw;
+    margin: 0 15%;
+}
+.ToduList h1{
+
+}
+.ToduList table{
+    width: 70%;
+}
+.tableCondainer{
+    width: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.tableCondainer tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tableCondainer td{
+    padding: 10px;
+}
+.Deletebtn{
+    padding: 5px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    background-color: #dc3545;
+}
+@media only screen and (max-width : 600px) {
+    .ToduList{
+        width: 100vw;
+        margin: 10px 5%;
+    }
+    .ToduList table{
+        width: 89%;
+    }
+    .todoData{
+        margin-left:0
+    }
+}
