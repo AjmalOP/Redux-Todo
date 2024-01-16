@@ -9,7 +9,7 @@ function ToduList() {
   const dispatch = useDispatch()
 
   function isCompleted(item){
-    return item.completed === true? "#28a745" : "transparent";
+    return item.complete === true? "#28a745" : "transparent";
   }
   const deleteT = (id) => {
     dispatch(deleteTodo(id))
@@ -21,7 +21,7 @@ function ToduList() {
           return(
             <div className='tableCondainer' key={item.id} style={{backgroundColor:isCompleted(item)}}>
               <tr>
-                <td style={{width:"10%"}}>{item.completed ? <img src={successicon} alt='success' style={{width:'20px'}}/>:<input type="checkbox" id={item.id} name={item.todo} Checked={item.completed} onChange={()=>{
+                <td style={{width:"10%"}}>{item.complete ? <img src={successicon} alt='success' style={{width:'20px'}}/>:<input type="checkbox" id={item.id} name={item.todo} Checked={item.completed} onChange={()=>{
                  dispatch(completedTodo(item.id))
                 }} />}</td>
                 <td style={{width:"90%"}}>{item.text}</td>
